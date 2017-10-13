@@ -14,36 +14,11 @@
     <![endif]-->
   </head>
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="../" class="navbar-brand">Bootstrap Starter Kit</a>
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="navbar-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav">
-            <li>
-              <a href="/examples.html">Examples</a>
-            </li>
-            <!--
-            <li>
-              <a href="http://news.bootswatch.com">Blog</a>
-            </li>
-          -->
-          </ul>
 
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://bootswatch.com/" target="_blank">Based on Bootswatch</a></li>
-            <li><a href="https://pushpullfork.com" target="_blank">pushpullfork.com</a></li>
-          </ul>
-
-        </div>
-      </div>
-    </div>
+    <!-- navbar -->
+    <?php
+      include('./php_includes/navbar.html');
+    ?>
 
 
     <div class="container">
@@ -1210,18 +1185,10 @@
         </div>
       </div>
 
-      <footer>
-        <div class="row">
-          <div class="col-lg-12">
-
-            <p>Bootstrap Starter Kit was built by <a href="https://pushpullfork.com" target="blank_">Kris Shaffer</a>, based on the <a href="https://bootswatch.com/united/" target="blank_">United</a> theme for <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>, made by <a href="http://thomaspark.co" rel="nofollow">Thomas Park</a>. Find the code on <a href="https://github.com/kshaffer/bootstrap_starter_kit" target="blank_">GitHub</a>, released under the <a href="https://github.com/thomaspark/bootswatch/blob/gh-pages/LICENSE" target="blank_">MIT License</a>.</p>
-            <p>Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
-
-          </div>
-        </div>
-
-      </footer>
-
+      <!-- footer -->
+      <?php
+        include('./php_includes/footer.html');
+      ?>
 
     </div>
 

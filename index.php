@@ -14,37 +14,11 @@
     <![endif]-->
   </head>
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="../" class="navbar-brand">Bootstrap Starter Kit</a>
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="navbar-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav">
-            <li>
-              <a href="/examples.html">Examples</a>
-            </li>
-            <!--
-            <li>
-              <a href="http://news.bootswatch.com">Blog</a>
-            </li>
-          -->
-          </ul>
 
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://bootswatch.com/" target="_blank">Based on Bootswatch</a></li>
-            <li><a href="https://pushpullfork.com" target="_blank">pushpullfork.com</a></li>
-          </ul>
-
-        </div>
-      </div>
-    </div>
-
+    <!-- navbar -->
+    <?php
+      include('./php_includes/navbar.html');
+    ?>
 
     <div class="container">
 
@@ -62,7 +36,7 @@
             <p>In the process of helping a student get started with her own Bootstrap-enabled site, I collected all the files you need to get started, in one ZIP file. Simply download this zip file, upload it to your web host's file manager, extract it, and start editing! No tracking down dependencies, no changing links to different folders... It's all here.</p>
             <p>You'll find two versions of Bootstrap Starter Kit. The first version is built from HTML, CSS, and a little JavaScript. This can run pretty much anywhere (including GitHub Pages), but it does require you to rewrite the HTML code for the header/footer on every page. Add a link to the navbar? You have to add it everywhere. For small sites, that may be fine, but it can get old.</p>
             <p>So I also made a version that uses a little PHP to pull the header and footer for every page from a single file. It diminishes the amount of work you have to do, especially for sites with more than two or three pages, but it won't work on GitHub Pages. However, it should work on any shared hosting environment (including Domain of One's Own).</p>
-            <p>Check out the <a href="/examples.html">examples page</a> to get some ideas of what this theme can do. Have fun!</p>
+            <p>Check out the <a href="/examples.php">examples page</a> to get some ideas of what this theme can do. Have fun!</p>
           </div>
 
           <div class="col-lg-3 col-lg-4 col-lg-5">
@@ -78,18 +52,10 @@
         </div>
 
 
-      <footer>
-        <div class="row">
-          <div class="col-lg-12">
-
-            <p>Bootstrap Starter Kit was built by <a href="https://pushpullfork.com" target="blank_">Kris Shaffer</a>, based on the <a href="https://bootswatch.com/united/" target="blank_">United</a> theme for <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>, made by <a href="http://thomaspark.co" rel="nofollow">Thomas Park</a>. Find the code on <a href="https://github.com/kshaffer/bootstrap_starter_kit" target="blank_">GitHub</a>, released under the <a href="https://github.com/thomaspark/bootswatch/blob/gh-pages/LICENSE" target="blank_">MIT License</a>.</p>
-            <p>Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
-
-          </div>
-        </div>
-
-      </footer>
-
+        <!-- footer -->
+        <?php
+          include('./php_includes/footer.html');
+        ?>
 
     </div>
 
