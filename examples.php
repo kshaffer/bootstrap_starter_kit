@@ -5,8 +5,10 @@
     <title>Bootstrap Starter Kit | Kris Shaffer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="/css/bootstrap.css" media="screen">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
@@ -25,9 +27,11 @@
 
       <div class="page-header" id="banner">
         <div class="row">
-          <div class="col-lg-8 col-md-7 col-sm-6">
+          <div class="col-lg-12">
             <h1>Bootstrap Starter Kit</h1>
-            <p class="lead">Get started on a static HTML site with an out-of-the-box <a href="http://getbootstrap.com/" target="blank_">Bootstrap</a> build.</p>
+            <hr/>
+            <p><i>This page contains many custom objects and elements to include in your site. Simply copy the code from this example page and paste into the location you want it on your site. (To keep this page for reference without it appearing on your site, simply remove the link from the navbar.)</i></p>
+            <hr/>
           </div>
         </div>
         <div class="row">
